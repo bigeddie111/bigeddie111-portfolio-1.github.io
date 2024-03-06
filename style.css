@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+/* Nav */
+.navbar-brand{
+  font-family: "Satisfy";
+  font-size: 30px;
+  
+}
+
+.nav-link{
+  font-family: "Poppins";
+  font-weight: 600;
+  color: black;
+  transition: 0.5s;
+}
+
+.nav-item a:hover{
+  letter-spacing: 0.15em;
+  background-color: #11aff2;
+  box-shadow: 0 0 35px #11aff2;
+}
+
+/* Home */
+
+#home{
+  margin-top: 50px;
+}
+#home img{
+  margin-left: 100px;
+}
+
+.content {
+  margin-top: 90px;
+}
+
+.content h1{
+  font-size: 80px;
+}
+
+.content h3{
+  font-size: 30px;
+}
+
+
+
+/* Skills */
+#skills hr{
+  border: 1.3px solid silver;
+  border-radius: 2px;
+}
+
+#skills .card img{
+  padding-top: 20px;
+  margin-left: 58px;
+  width: 200px;
+}
+
+.card-deck{
+  margin-top: 50px;
+}
+
+/* Works */
+
+#works hr{
+  border: 1.3px solid silver;
+  border-radius: 2px;
+}
+
+.works-content{
+  font-size: 20px;
+  font-family: "Wix Madefor Display";
+}
+
+.works-content span a{
+  text-decoration: none;
+  color: black;
+}
+
+.works-content span a:hover{
+  color: #555353;
+}
+
+ion-icon[name="arrow-forward-outline"]{
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+  left: 2px;
+}
+
+/* About */
+
+.about p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.about img{
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+/* Page load transition */
+
+.container{
+  animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
